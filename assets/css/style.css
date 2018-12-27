@@ -21,6 +21,7 @@ body{
 	font-family: 'Lato' !important;
 	color: #007bff;
 }
+.hmz-header-btn:hover {color: #112233;}
 .card{
 	border-radius: 0.5rem !important;
 }

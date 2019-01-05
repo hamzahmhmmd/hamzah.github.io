@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	background-color: #f9f9f9 !important;
+}
+.hmz-header{
+	background-color: #112233 !important;
+	height: 100% !important;
+}
+.hmz-profile-pict{
+	height: auto;
+	width: 100px;
+	border-radius: 50%;
+}
+.hmz-title{
+	font-family: 'Karla' !important;
+	color: #007bff;
+}
+.hmz-subtitle{
+	font-family: 'Lato' !important;
+	color: #007bff;
+}
+.hmz-header-btn:hover {color: #112233;}
+.card{
+	border-radius: 0.5rem !important;
+}
+.card-img-top{
+	border-top-left-radius: calc(0.5rem - 1px) !important;
+	border-top-right-radius: calc(0.5rem - 1px) !important;
+}
+.h6{
+	font-family: 'Lato' !important;
+	color: #112233 !important;
+	text-decoration: none;
+}
+a>p:hover{
+		text-decoration: none;
+}
+.hmz-footer{
+	background-color: #112233
+}
+.form-control::placeholder {
+  color: #007bff;
+  opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #007bff;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+ color: #007bff;
+}
+.hmz-sit{
+  font-family: 'Karla' !important;
+  font-size: 1.3em
+}
+.hmz-cr{
+  font-family: 'Karla' !important;
+}
+
+.btn-outline-danger {
+  color: #df252b;
+  border-color: #df252b;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #df252b;
+  border-color: #df252b;
+}
+
+.btn-outline-danger:focus, .btn-outline-danger.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.btn-outline-danger.disabled, .btn-outline-danger:disabled {
+  color: #dc3545;
+  background-color: transparent;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active,
+.show > .btn-outline-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}

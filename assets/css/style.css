@@ -34,18 +34,30 @@ body{
 	color: #112233 !important;
 	text-decoration: none;
 }
-.shadow-sm{
-	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}
-.shadow-lg{
-	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175) !important;
-}
 a>p:hover{
 		text-decoration: none;
 }
 .hmz-footer{
 	background-color: #112233
 }
+.form-control::placeholder {
+  color: #007bff;
+  opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #007bff;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+ color: #007bff;
+}
+.hmz-sit{
+  font-family: 'Karla' !important;
+  font-size: 1.3em
+}
+.hmz-cr{
+  font-family: 'Karla' !important;
+}
+
 .btn-outline-danger {
   color: #df252b;
   border-color: #df252b;
